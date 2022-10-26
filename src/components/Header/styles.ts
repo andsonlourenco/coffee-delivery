@@ -19,12 +19,14 @@ export const Location = styled.div`
   background: ${(props) => props.theme["purple-300"]};
   border-radius: 6px;
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: ${(props) => props.theme["purple-700"]};
 `;
 
-export const MiniCart = styled.div`
+export const MiniCart = styled.button`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -35,12 +37,13 @@ export const MiniCart = styled.div`
   width: 38px;
   height: 38px;
 
-  background: #f1e9c9;
+  background: ${(props) => props.theme["yellow-300"]};
   border-radius: 6px;
+  border: 0;
 
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  svg {
+    color: ${(props) => props.theme["yellow-700"]};
+  }
 `;
 
 export const HeaderActions = styled.div`

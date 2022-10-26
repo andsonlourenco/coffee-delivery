@@ -1,5 +1,11 @@
-import { HomeContent } from "./styles";
+import { BannerHome } from "../BannerHome";
+import { HomeContent, HomeContainer } from "./styles";
 
 export function Home() {
-  return <HomeContent>Home</HomeContent>;
+  return (
+    <HomeContainer>
+      <BannerHome />
+      <HomeContent>Home</HomeContent>
+    </HomeContainer>
+  );
 }

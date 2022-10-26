@@ -10,10 +10,10 @@ export function Header() {
       <HeaderActions>
         <Location>
           {" "}
-          <MapPin size={25} /> São Paulo, SP
+          <MapPin size={25} weight="fill" /> São Paulo, SP
         </Location>
         <MiniCart>
-          <ShoppingCart size={25} />
+          <ShoppingCart size={25} weight="fill" />
         </MiniCart>
       </HeaderActions>
     </HeaderContainer>
