@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import backgroundBannerHome from "../../assets/background_banner_home.svg";
+import backgroundBannerHome from "../../../assets/background_banner_home.svg";
 
 export const BannerContainer = styled.div`
   display: flex;

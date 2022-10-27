@@ -1,10 +1,10 @@
-import { BannerHome } from "../BannerHome";
+import { Banner } from "./Banner";
 import { HomeContent, HomeContainer } from "./styles";
 
 export function Home() {
   return (
     <HomeContainer>
-      <BannerHome />
+      <Banner />
       <HomeContent>Home</HomeContent>
     </HomeContainer>
   );

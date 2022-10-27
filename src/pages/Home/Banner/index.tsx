@@ -1,9 +1,9 @@
 import { BannerContainer, BannerContent, BannerInfor } from "./styles";
 
-import cupOfCoffeeBannerHome from "../../assets/cup_of_coffee_banner_home.svg";
+import cupOfCoffeeBannerHome from "../../../assets/cup_of_coffee_banner_home.svg";
 import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
 
-export function BannerHome() {
+export function Banner() {
   return (
     <BannerContainer>
       <BannerContent>
